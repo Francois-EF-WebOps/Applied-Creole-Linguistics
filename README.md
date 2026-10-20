@@ -1,5 +1,7 @@
 # Applied Creole Linguistics
 
+See [Product management and technical writing](docs/product-management-and-technical-writing.md) for shared portfolio delivery practices, research documentation, acceptance criteria, and evidence-status conventions.
+
 **Status:** Research and application scaffold; convergence research plan documented, implementation and speaker validation not yet verified.
 
 ## Purpose
