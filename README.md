@@ -27,9 +27,10 @@ The current repository includes a Google AI Studio application scaffold. The sca
 **Prerequisite:** Node.js.
 
 1. Install dependencies: `npm install`
-2. Set `GEMINI_API_KEY` in `.env.local` as required by the application.
-3. Run the development server: `npm run dev`
-4. Before publishing, verify build status, API-key handling, mobile accessibility, source attribution and the app's actual behaviour. Do not expose API keys in client code or committed files.
+2. Run the development server: `npm run dev`
+3. Before publishing, verify build status, API-key handling, mobile accessibility, source attribution and the app's actual behaviour. Do not expose API keys in client code or committed files.
+
+This repository currently has no verified Gemini client call sites. Do not add a browser-side API key or inject secrets through Vite `define`; any future AI integration must use a server-side proxy.
 
 ## Research principles
 
